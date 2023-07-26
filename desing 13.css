@@ -1,0 +1,108 @@
+* {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.parent {
+    min-height: 100vh;
+}
+
+.ul-nave {
+    position: relative;
+}
+
+.ul-nave li,
+.card-dash {
+    transition: all 200ms ease;
+}
+
+.ul-nave li:not(:last-child):hover {
+    margin-left: -8px !important;
+}
+
+.ul-nave li:last-child {
+    position: absolute;
+    bottom: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ul-nave .active {
+    background-color: #dc3546da;
+    position: relative;
+}
+
+.side {
+    height: 100vh;
+    animation: smoth 200ms forwards ease;
+}
+
+@keyframes smoth {
+    to {
+        display: block
+    }
+}
+
+.card-dash:hover {
+    box-shadow: none !important;
+}
+
+.table tr {
+    padding: 30px !important;
+    border-radius: 10px;
+}
+
+.pro-img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.lastcard {
+    padding: 20px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: dashed 3px #dc3545;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.show-side {
+    width: 100%;
+    display: block !important
+}
+
+.hide {
+    display: none !important;
+}
+
+.btn-close{
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.black-main ,.blackside{
+    background: #000000ed;
+    color: white;
+}
+
+.ul-nave li a{
+    color: black ;
+}
+.blackli {
+    color: white !important;
+}
+.shadow{
+    box-shadow: 0 0.125rem 0.5rem rgb(184 177 177 / 50%) !important;
+    
+}
+.container-fluid{
+    padding-right: calc(var(--bs-gutter-x) * 0.7) !important;
+        padding-left: calc(var(--bs-gutter-x) * 0) !important;
+}

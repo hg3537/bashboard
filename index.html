@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desing 13</title>
+        <link rel="stylesheet" href="Style/bootstrap.css">
+        <link rel="stylesheet" href="Style/desing 13.css">
+        <!-- <link href="https://css.gg/css" rel="stylesheet" /> -->
+
+        <!-- UNPKG -->
+        <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+        <!-- JSDelivr -->
+        <!-- <link href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css" rel="stylesheet" /> -->
+    </head>
+
+    <body>
+
+        <div class="container-fluid parent d-inline-flex ">
+            <!-- side nav -->
+            <div class="side d-none  d-lg-block  ">
+                <div class="h-100">
+                    <div class=" logo h2 d-inline-flex p-3 position-relative ">
+                        <img src="images/logo.png" width="50px">
+                        <h2 class="text-uppercase mx-1 fw-bolder align-items-center justify-content-center text-center">
+                            ibn
+                            <span class="text-danger">abdo</span>
+                        </h2>
+                        <i
+                            class=" btn btn-lg d-lg-none miuns fa-solid fa-xmark btn-sm text-danger btn-close position-absolute "></i>
+                    </div>
+                    <ul class="ul-nave h-100 p-0 overflow-hidden">
+                        <li class="py-2 my-1 dark-mode"><a href="# " class="d-inline-flex  align-items-center "><i
+                                    class="fa-solid fa-circle-half-stroke mx-4"></i>Dark mode</a></li>
+                        <li class="py-2 my-1 active">
+                            <a href="# " class="d-inline-flex  align-items-center ">
+                                <i class="gg-home-alt mx-4"></i>Dashboard</a>
+                                </li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="gg-smile-mouth-open mx-4"></i>Customers</a></li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="gg-border-bottom mx-4"></i>Orders</a></li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="gg-align-bottom mx-4"></i>Analyics</a></li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="fa-solid fa-envelope-circle-check mx-4"></i>Messages</a></li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="gg-laptop mx-4"></i>Prodicts</a></li>
+                        <li class="py-2 my-1"><a href="# " class="d-inline-flex  align-items-center"><i
+                                    class="fa-solid fa-gear mx-4"></i>settings</a></li>
+                        <li><a href="# "
+                                class="text-uppercase p-2  d-inline-flex  align-items-center  btn  btn-outline-dark"><i
+                                    class="gg-log-out mx-3"></i>logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row h-100 main">
+                <!-- mild -->
+                <div class="col-lg-9 ">
+                    <h1 class="h1 fw-bolder d-flex justify-content-between ">Dashboard <i
+                            class="fa-solid fa-bars-staggered btn btn-lg d-lg-none"></i></h1>
+                    <!-- cards -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12  mt-5 ">
+                                <div class="border-1 rounded-1 shadow-sm text-center card-dash py-2">
+                                    <i class="fa-brands fa-salesforce h1 text-danger fw-bold"></i>
+                                    <h3 class="d-inline-flex ">
+                                        <h2>Toatal Sales</h2>
+                                        <h1 class="h2 fw-bold">$25,234</h1>
+                                    </h3>
+                                    <h4 class="text-info h6">Last 24 hours</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mt-5 ">
+                                <div class="border-1 rounded-1 shadow-sm text-center card-dash py-2">
+                                    <i class="fa-solid fa-chart-simple h1 text-secondary fw-bold"></i>
+                                    <h3 class="d-inline-flex ">
+                                        <h2>Toatal Expences</h2>
+                                        <h1 class="h2 fw-bold">$4,234</h1>
+                                    </h3>
+                                    <h4 class="text-info h6">Last 24 hours</h4>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mt-5 ">
+                                <div class="border-1 rounded-1 shadow-sm text-center card-dash py-2">
+                                    <i class="fa-solid fa-money-check-dollar h1 fw-bold text-success"></i>
+                                    <h3 class="d-inline-flex ">
+                                        <h2>Toatal Income</h2>
+                                        <h1 class="h2 fw-bold">$465,234</h1>
+                                    </h3>
+                                    <h4 class="text-info h6">Last 24 hours</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- table -->
+                        <h1 class="h1 fw-bolder my-3">Orders</h1>
+                        <div class="table-responsive mt-3 ">
+                            <table class="table table-hover table-light text-center shadow">
+                                <thead>
+                                    <tr class="p-4">
+                                        <th scope="col">Product Name</th>
+                                        <th scope="col">Product Number</th>
+                                        <th scope="col">Payment</th>
+                                        <th scope="col">status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>45542</td>
+                                        <td>yes</td>
+                                        <td>Delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>45988</td>
+                                        <td>yes</td>
+                                        <td>Delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>49742</td>
+                                        <td>yes</td>
+                                        <td>Delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>908786</td>
+                                        <td>yes</td>
+                                        <td>Delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>7662</td>
+                                        <td>No</td>
+                                        <td class="text-danger">Canclnied</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>8086</td>
+                                        <td>yes</td>
+                                        <td>Delivered</td>
+                                    </tr>
+                                    <tr>
+                                        <td>lorem</td>
+                                        <td>662</td>
+                                        <td>No</td>
+                                        <td class="text-primary">Pending</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- last -->
+                <div class="col-lg-3  py-md-4 py-sm-5">
+                    <div class="container-fluid">
+                        <!-- top of last -->
+                        <div class="container shadow">
+                            <h1 class="h1 fw-bolder">Recent Updates</h1>
+                            <div class="d-inline-flex  p-2">
+                                <img src="images/profile-1.jpg" class="pro-img">
+                                <p>
+                                    <strong>Mark Big</strong>
+                                    <span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Culpa, officia.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="d-inline-flex mt-1 p-2">
+                                <img src="images/profile-3.jpg" class="pro-img">
+                                <p>
+                                    <strong>jack nan</strong>
+                                    <span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Culpa, officia.
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="d-inline-flex  mt-1 p-2">
+                                <img src="images/profile-2.jpg" class="pro-img">
+                                <p>
+                                    <strong>loka jol</strong>
+                                    <span class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Culpa, officia.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- bottom of last -->
+                        <div class="container">
+                            <h1 class="h1 fw-bolder">Recent Sales</h1>
+                            <div class=" shadow d-flex align-items-center justify-content-center text-center">
+                                <i class="fa-solid fa-cart-plus h3 text-success mx-2"></i>
+                                <div>
+                                    <strong class="text-uppercase ">online Orders</strong>
+                                    <h6 class="text-muted d-flex"> last 24 hours</h6>
+                                </div>
+                                <div class="mx-2">
+                                    <strong class="text-uppercase text-primary">+20%</strong>
+                                    <h6 class="fw-bold"> 224 </h6>
+                                </div>
+                            </div>
+                            <div class=" lastcard d-flex align-items-center justify-content-center text-center ">
+                                <h5>+ Add Product</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="desing 13.js"></script>
+    </body>
+
+</html>
